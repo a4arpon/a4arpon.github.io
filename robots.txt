@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /assets/
+
+SITEMAP: https://a4arpon.github.io/sitemap.txt
