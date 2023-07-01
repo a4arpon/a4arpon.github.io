@@ -2,6 +2,7 @@ import { Helmet } from 'react-helmet-async'
 import bgWave from '../../assets/svgs/bgWave.svg'
 import MyCourses from './MyCourses'
 import MyEducation from './MyEducation'
+import MyExperience from './MyExperience'
 import MySkills from './MySkills'
 import WhoAmI from './WhoAmI'
 const AboutMe = () => {
@@ -17,6 +18,7 @@ const AboutMe = () => {
         <div className="container mx-auto flex flex-col gap-20 p-2">
           <WhoAmI />
           <MyEducation />
+          <MyExperience />
           <MyCourses />
           <MySkills />
         </div>

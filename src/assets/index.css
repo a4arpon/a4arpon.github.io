@@ -92,12 +92,9 @@
   position: relative;
   border: 2px solid #c3c6ce;
   transition: 0.5s ease-out;
-  @apply bg-base-100 text-base-content rounded-lg w-full my-3;
+  @apply bg-base-100 text-base-content rounded-lg my-3;
 }
 
-.projectCard-details {
-  @apply w-full flex flex-col
-}
 
 .projectCard-button {
   transform: translate(-50%, 125%);

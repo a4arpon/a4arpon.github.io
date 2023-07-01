@@ -12,6 +12,7 @@ const Navbar = () => {
               ? 'btn btn-circle btn-primary'
               : 'btn btn-circle btn-neutral'
           }
+          title="Home"
         >
           <House size={24} />
         </NavLink>
@@ -22,6 +23,7 @@ const Navbar = () => {
               ? 'btn btn-circle btn-primary'
               : 'btn btn-circle btn-neutral'
           }
+          title="About Me"
         >
           <Person size={24} />
         </NavLink>
@@ -32,6 +34,7 @@ const Navbar = () => {
               ? 'btn btn-circle btn-primary'
               : 'btn btn-circle btn-neutral'
           }
+          title="My Projects"
         >
           <Journal size={24} />
         </NavLink>
@@ -42,6 +45,7 @@ const Navbar = () => {
               ? 'btn btn-circle btn-primary'
               : 'btn btn-circle btn-neutral'
           }
+          title="Contact With Me"
         >
           <ChatFill size={24} />
         </NavLink>
