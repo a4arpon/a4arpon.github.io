@@ -8,8 +8,8 @@ const EmailAndPhone = () => {
           <p className="flex gap-3 items-center text-3xl">
             <Mailbox2 size={32} /> Email
           </p>
-          <p className="text-2xl underline">
-            <a href="mailto:a4arpon@gmail.com mt-2">a4arpon@gmail.com</a>
+          <p className="text-2xl underline mt-2">
+            <a href="mailto:a4arpon@gmail.com">a4arpon@gmail.com</a>
           </p>
         </div>
         <div className="divider lg:divider-horizontal">OR</div>
