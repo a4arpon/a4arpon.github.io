@@ -44,7 +44,7 @@ const MetaManager = ({ title, canonical }) => {
         content="https://avatars.githubusercontent.com/u/70208852?v=4"
       />
       <link rel="shortlink" href="https://a4arpon.github.io" />
-      <link rel="canonical" href="https://a4arpon.github.io" />
+      <link rel="canonical" href={canonical} />
       <meta name="robots" content="index, follow, max-image-preview:large" />
       <title>{title}</title>
     </Helmet>
