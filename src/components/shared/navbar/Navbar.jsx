@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom'
 const Navbar = () => {
   return (
     <div className="bottom-0 lg:left-0 fixed flex lg:h-full items-center justify-center lg:w-[70px] z-10 w-full">
-      <div className="h-20 lg:h-1/2 bg-white bg-opacity-25 lg:rounded-tr-lg lg:rounded-br-lg p-3 flex justify-between lg:flex-col opacity-40 hover:opacity-100 lg:ml-0 hover:ml-0 ease-in duration-300 w-full">
+      <div className="h-20 lg:h-1/2 bg-white lg:bg-opacity-25 lg:rounded-tr-lg lg:rounded-br-lg p-3 flex justify-between lg:flex-col opacity-40 hover:opacity-100 lg:ml-0 hover:ml-0 ease-in duration-300 w-full">
         <NavLink
           to="/"
           className={({ isActive }) =>
