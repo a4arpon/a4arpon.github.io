@@ -1,6 +1,6 @@
 const WhoAmI = () => {
   return (
-    <div className="bg-base-300 bg-opacity-40 rounded-b-2xl p-3 lg:p-5">
+    <div className="bg-base-300 bg-opacity-40 rounded-2xl p-3 lg:p-5">
       <h3 className="text-3xl text-center border-b-2 pb-2">About Me</h3>
       <div className="my-10 flex justify-between flex-col lg:flex-row gap-5">
         <img

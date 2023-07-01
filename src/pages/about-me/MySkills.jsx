@@ -110,7 +110,7 @@ const MySkills = () => {
     }
   ]
   return (
-    <div className="bg-base-300 bg-opacity-40 rounded-b-2xl mt-20 lg:mt-0 p-3 lg:p-5">
+    <div className="bg-base-300 bg-opacity-40 rounded-2xl mt-20 lg:mt-0 p-3 lg:p-5">
       <h3 className="text-3xl text-center border-b-2 pb-2">
         Tools And Technology
       </h3>
