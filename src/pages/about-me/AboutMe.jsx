@@ -1,5 +1,5 @@
-import { Helmet } from 'react-helmet-async'
 import bgWave from '../../assets/svgs/bgWave.svg'
+import MetaManager from '../../hooks/MetaManager'
 import MyCourses from './MyCourses'
 import MyEducation from './MyEducation'
 import MyExperience from './MyExperience'
@@ -8,9 +8,10 @@ import WhoAmI from './WhoAmI'
 const AboutMe = () => {
   return (
     <>
-      <Helmet>
-        <title>About Me | Shahin Islam Arpon</title>
-      </Helmet>
+      <MetaManager
+        title={'About Me | Shahin Islam Arpon'}
+        canonical={'https://a4arpon.github.io/about-me'}
+      />
       <div
         className="bg-cover flex items-center py-20"
         style={{ background: `url(${bgWave})` }}

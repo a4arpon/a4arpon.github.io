@@ -1,14 +1,15 @@
-import { Helmet } from 'react-helmet-async'
 import bgWave from '../../assets/svgs/bgWave.svg'
+import MetaManager from '../../hooks/MetaManager'
 import EmailAndPhone from './EmailAndPhone'
 import MySocialAccounts from './MySocialAccounts'
 import SendEmail from './SendEmail'
 const ContactWithMe = () => {
   return (
     <>
-      <Helmet>
-        <title>Contact With Me | Shahin Islam Arpon</title>
-      </Helmet>
+      <MetaManager
+        title={'Contact With Me | Shahin Islam Arpon'}
+        canonical={'https://a4arpon.github.io/contact-with-me'}
+      />
       <div
         className="bg-cover flex items-center py-20 min-h-screen"
         style={{ background: `url(${bgWave})` }}

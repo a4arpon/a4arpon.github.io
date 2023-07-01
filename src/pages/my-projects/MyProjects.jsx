@@ -1,12 +1,13 @@
-import { Helmet } from 'react-helmet-async'
 import bgWave from '../../assets/svgs/bgWave.svg'
+import MetaManager from '../../hooks/MetaManager'
 import Projects from './Projects'
 const MyProjects = () => {
   return (
     <>
-      <Helmet>
-        <title>Project Library | Shahin Islam Arpon</title>
-      </Helmet>
+      <MetaManager
+        title={'Projects Library | Shahin Islam Arpon'}
+        canonical={'https://a4arpon.github.io/my-projects'}
+      />
       <div
         className="bg-cover flex items-center py-20 min-h-screen"
         style={{ background: `url(${bgWave})` }}

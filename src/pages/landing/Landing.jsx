@@ -1,12 +1,13 @@
-import { Helmet } from 'react-helmet-async'
 import bgWave from '../../assets/svgs/bgWave.svg'
+import MetaManager from '../../hooks/MetaManager'
 import Hero from './hero/Hero'
 const Landing = () => {
   return (
     <>
-      <Helmet>
-        <title>Shahin Islam Arpon | MERN Stack Web Developer</title>
-      </Helmet>
+      <MetaManager
+        title={'Shahin Islam Arpon | MERN Stack Web Developer'}
+        canonical={'https://a4arpon.github.io/'}
+      />
       <div className="h-screen" style={{ background: `url(${bgWave})` }}>
         <Hero />
       </div>
