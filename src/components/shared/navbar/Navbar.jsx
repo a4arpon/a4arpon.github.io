@@ -1,9 +1,9 @@
-import { House, Journal, Person } from 'react-bootstrap-icons'
+import { ChatFill, House, Journal, Person } from 'react-bootstrap-icons'
 import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
   return (
-    <div className="left-0 fixed flex h-full items-center justify-center w-[70px]">
+    <div className="left-0 fixed flex h-full items-center justify-center w-[70px] z-10">
       <div className="h-1/2 bg-white bg-opacity-25 rounded-tr-lg rounded-br-lg p-3 flex justify-between flex-col opacity-40 hover:opacity-100 -ml-14 lg:ml-0 hover:ml-0 ease-in duration-300">
         <NavLink
           to="/"
@@ -34,6 +34,16 @@ const Navbar = () => {
           }
         >
           <Journal size={24} />
+        </NavLink>
+        <NavLink
+          to="/contact-with-me"
+          className={({ isActive }) =>
+            isActive
+              ? 'btn btn-circle btn-primary'
+              : 'btn btn-circle btn-neutral'
+          }
+        >
+          <ChatFill size={24} />
         </NavLink>
       </div>
     </div>

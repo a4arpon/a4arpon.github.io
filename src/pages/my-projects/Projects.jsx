@@ -26,7 +26,7 @@ const Projects = () => {
     }
   ]
   return (
-    <div className="grid grid-cols-3 my-10 gap-5">
+    <div className="grid grid-cols-1 lg:grid-cols-3 my-10 gap-5">
       {projectsItems.map((item) => (
         <div className="projectCard" key={item.id}>
           <div className="projectCard-details">
@@ -35,13 +35,13 @@ const Projects = () => {
                 <img
                   src={item.projectImgURL}
                   alt={item.projectName}
-                  className="w-full object-cover object-top rounded-lg"
+                  className="w-full rounded-lg"
                 />
               </div>
             </div>
             <div className="p-3 mb-10">
               <p className="text-title">{item.projectName}</p>
-              <p className="text-body">{item.details}</p>
+              <p className="text-body hidden">{item.details}</p>
             </div>
           </div>
           <div className="projectCard-button flex gap-3 justify-between">

@@ -92,15 +92,11 @@
   position: relative;
   border: 2px solid #c3c6ce;
   transition: 0.5s ease-out;
-  overflow: visible;
-  @apply bg-base-100 text-base-content rounded-lg;
+  @apply bg-base-100 text-base-content rounded-lg w-full my-3;
 }
 
 .projectCard-details {
-  height: 100%;
-  gap: 0.5em;
-  display: grid;
-  place-content: center;
+  @apply w-full flex flex-col
 }
 
 .projectCard-button {
