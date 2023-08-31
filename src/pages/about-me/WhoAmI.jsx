@@ -6,7 +6,7 @@ const WhoAmI = () => {
         <img
           src="/arpon.png"
           alt="Shahin Islam Arpon, MERN Stack Web Developer, HTML, CSS, JavaScript, React, TailwindCSS, Bootstrap, education, skills, experience | https://a4arpon.github.io"
-          className="w-full lg:w-1/4 h-96 rounded-full"
+          className="w-full lg:w-1/4 h-96 rounded-full object-cover hidden"
         />
         <div className="lg:w-3/4">
           <h1 className="text-3xl lg:text-5xl mb-3">Shahin Islam (Arpon)</h1>
