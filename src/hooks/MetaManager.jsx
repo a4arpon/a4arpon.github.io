@@ -46,7 +46,9 @@ const MetaManager = ({ title, canonical }) => {
       <link rel="shortlink" href="https://a4arpon.github.io" />
       <link rel="canonical" href={canonical} />
       <meta name="robots" content="index, follow, max-image-preview:large" />
-      <title>{title}</title>
+      <title>
+        {title || 'Shahin Islam Arpon - JavaScript Web App Developer'}
+      </title>
     </Helmet>
   )
 }
