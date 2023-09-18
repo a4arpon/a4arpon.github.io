@@ -7,7 +7,7 @@ const Landing = () => {
       window.location.replace(
         'https://a4arpon.vercel.app/?ref=classic.portfolio'
       )
-    }, 1500)
+    }, 100)
   }, [])
 
   return (

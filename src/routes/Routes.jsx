@@ -1,5 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom'
 import Root from '../layouts/Root'
+import Rd from '../pages/Rd'
 import AboutMe from '../pages/about-me/AboutMe'
 import ContactWithMe from '../pages/contact-with-me/ContactWithMe'
 import Landing from '../pages/landing/Landing'
@@ -12,21 +13,25 @@ const Routes = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <Landing />
+        element: <Landing />,
       },
       {
         path: '/about-me',
-        element: <AboutMe />
+        element: <AboutMe />,
       },
       {
         path: '/my-projects',
-        element: <MyProjects />
+        element: <MyProjects />,
       },
       {
         path: '/contact-with-me',
-        element: <ContactWithMe />
-      }
-    ]
-  }
+        element: <ContactWithMe />,
+      },
+      {
+        path: '/rd/:type',
+        element: <Rd />,
+      },
+    ],
+  },
 ])
 export default Routes
